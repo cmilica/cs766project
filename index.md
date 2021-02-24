@@ -1,4 +1,4 @@
-## SLAM and Reinforcement Learning
+## CS 766 Spring 2021 Project 
 
 Project team: John Balis, Yisen Wang and Milica Cvetkovic
 
