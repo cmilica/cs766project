@@ -2,4 +2,8 @@ title: SLAM and Reinforcement Learning
 description: Project page by John, Yisen and Milica
 show_downloads: true
 google_analytics:
+github:
+  code_url: https://github.com/balisujohn/766-final-project
+  another_url: https://github.com/cmilica/cs766project/blob/gh-pages/assets/766_final_project.pdf
+  owner_name: Milica Cvetkovic
 theme: jekyll-theme-cayman
