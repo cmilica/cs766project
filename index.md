@@ -8,7 +8,7 @@ Project team: John Balis, Yisen Wang and Milica Cvetkovic
 
 ## Midterm Report 
 
-[Link to the midterm report] (./assets/766_midterm_report.pdf)
+[Link to the midterm report](./assets/766_midterm_report.pdf)
 
 ### Demo of ORB-SLAM3 and miniworld
 
