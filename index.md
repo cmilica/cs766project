@@ -12,7 +12,7 @@ Project team: John Balis, Yisen Wang and Milica Cvetkovic
 
 ### Demo of ORB-SLAM3 and miniworld
 
-{% include youtubePlayer.html id=page.youtubeId: demo %}
+
 
 ## Project Timeline
 
