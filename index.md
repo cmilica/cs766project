@@ -50,21 +50,34 @@ The tracking is the first step and it works by localizing the camera with every 
 The final step of the loop closing when building a map, ORB-SLAM was built on the Essential Graph feature, which remains a part of the algorithm in all future versions. The system builds a spanning tree from the initial keyframe, and each time a new keyframe is inserted, it is included in the tree linked to the keyframe that shares most point observations. In a case when a keyframe is erased by culling, the system updates all the affected keyframes
 bags of words(BoW) place recognition module that performs loop detection and relocalization
 
-<p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GB4uiG0BrCg" 
-              frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
-              allowfullscreen>
-</p>
-
 
 ## Approach
 
+- Environment setting:
+- Simulation environment: gym-miniworld
+- SLAM library: 
+  - pySLAM
+  - ORB-SLAM2 + python bindings
+  - ORB-SLAM3 (did not work well)
+- Reinforcement learning library : Stable Baselines
+
 ## Results
+
+
+### Demos 
 
 ### PySLAM
 
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ofq9iDRJG6I" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
 ### ORB-SLAM2
+
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M9-AGSCgOJ0" tframeborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
 
 ### ORB-SLAM3
 
-## Demos
+
