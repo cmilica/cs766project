@@ -142,9 +142,28 @@ Finally, a full BA runs as anindependent thread to prevent anything affecting a 
 ## Results
 
 ### ORB-SLAM2
+Here is a demo video that pytorch is trying the agent with SLAM results in real-time. 
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=iari7YP6ovI" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
 
+Timing issue:
+
+
+Problems to be solved:​
+
+1) speed, SLAM module will slow down the training speed​
+
+2) unexpected loop-closure & lost track: richness of texture inside simulation environment​
+
+
+### PySLAM
 We created a set of 200 reference images using our agent trained through standard DQN in modified MiniWorld-Hallway-v0 environment. 
 We analyzed the time it took to perform SLAM on this sequence of images in pyslam
 
-### PySLAM
 
+## Future work
+
+1) Encode the slam results into DQN model input
+2) Improve the code performance to get fater performance
+3) Find appropriate parameters that mitigate the "lost of track" issue
