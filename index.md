@@ -10,6 +10,11 @@ After some research and reading papers about LSD Slam and ORB-Slam(or ORB slam),
 _How augmenting input features from SLAM affects the performance of RL in 3D environments?_
 We each tried a different slam library pyslam, orbslam2 and orbslam3 and deep q learning architecture in the [gym-miniworld 3d environment](https://github.com/maximecb/gym-miniworld). 
 
+In the video, you can see one of the environments that we used in the gym-miniworld.
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2P8yhjrFa4E" title="Gym-miniworld Hallway" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
 __Why is this important?__
 
 We are looking into a future where a robot might be used to solve some challenging and difficult task without apriori knowledge about the environment. 
