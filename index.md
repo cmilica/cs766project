@@ -1,6 +1,16 @@
-## CS 766 Spring 2021 Project 
+---
+layout: default
+---
+
+## Introduction and Motivation 
 
 Project team: John Balis, Yisen Wang and Milica Cvetkovic
+
+## Background 
+
+## Approach
+
+
 
 ## Project Proposal
 
