@@ -41,7 +41,7 @@ However, one downside is the complexity of implementation for SLAM that slows it
 ## Background
 
 <p align="center">
-<img width="800" src="./assets/ORB-SLAM2.pn">
+<img width="800" src="https://raw.githubusercontent.com/cmilica/cs766project/gh-pages/assets/ORB-SLAM2.png">
 </p>
 
 It is important to note that all of the ORB-SLAM algorithms use bundle adjustment(BA) to provide estimates of camera localization and sparse geometric reconstruction. 
