@@ -19,7 +19,6 @@ In this project we used a minimalist 3D RL environment with navigation based rew
 The idea behind the solution is the assumption that SLAM will localize more efficiently than a DQN. 
 However, one downside is the complexity of implementation for SLAM that slows it down. 
 
-
 ## Project Proposal
 
 [Link to the project proposal](./assets/766_final_project.pdf)
@@ -27,7 +26,6 @@ However, one downside is the complexity of implementation for SLAM that slows it
 ## Midterm Report 
 
 [Link to the midterm report](./assets/766_midterm_report.pdf)
-
 
 ## Project Timeline
 
@@ -41,6 +39,20 @@ However, one downside is the complexity of implementation for SLAM that slows it
 | Before May 5         | Complete project writeup and presentation          | 
 
 ## Background
+
+<p align="center">
+<img width="800" src="./assets/ORB-SLAM2.pn">
+</p>
+
+It is important to note that all of the ORB-SLAM algorithms use bundle adjustment(BA) to provide estimates of camera localization and sparse geometric reconstruction. 
+Due to the lack of depth, we won’t be describing BA in detail.
+The tracking is the first step and it works by localizing the camera with every frame and deciding when to insert a new frame. The local mapping processes new keyframes and performs local BA. In this steep during tracking, culling of the points is applied to keep the high-quality points. The loop closing searches for the loops with every new keyframe. In the original ORB-SLAM, the final step is a pose graph optimization over similarity constraints to achieve global consistency. 
+The final step of the loop closing when building a map, ORB-SLAM was built on the Essential Graph feature, which remains a part of the algorithm in all future versions. The system builds a spanning tree from the initial keyframe, and each time a new keyframe is inserted, it is included in the tree linked to the keyframe that shares most point observations. In a case when a keyframe is erased by culling, the system updates all the affected keyframes
+bags of words(BoW) place recognition module that performs loop detection and relocalization
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GB4uiG0BrCg" 
+              frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
 
 ## Approach
 
