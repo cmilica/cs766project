@@ -150,12 +150,13 @@ Here is a demo video that pytorch is trying the agent with SLAM results in real-
 </p>
 
 Timing issue:
+
 | Settings                       | Time per action | 
 |:-------------------------------|:----------------|
-| 10 frames/action​ With viewer   | 0.34s           | 
-| 10 frames/action​ Without viewer| 0.33s           | 
-| 20 frames/action               | 0.67s           |
-| 5 frames/action                | 0.17s           | 
+| 10frames/action​ With viewer    | 0.34s           | 
+| 10frames/action​ Without viewer | 0.33s           | 
+| 20frames/action                | 0.67s           |
+| 5frames/action                 | 0.17s           | 
 
 
 Resolution: 800x600
