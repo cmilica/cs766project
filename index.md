@@ -1,15 +1,23 @@
 ---
 layout: default
 ---
+# SLAM and Reinforcement Learning in 3D environments
 
 ## Introduction and Motivation 
 
-Project team: John Balis, Yisen Wang and Milica Cvetkovic
+The idea for the project started from a very basic desire to use this time to learn more about SLAM and RL. 
+After some research and reading papers about LSD Slam and ORB-Slam(or ORB slam), we formed the problem statement:
+_How augmenting input features from SLAM affects the performance of RL in 3D environments?_
+We each tried a different slam library pyslam, orbslam2 and orbslam3 and deep q learning architecture in the [gym-miniworld 3d environment](https://github.com/maximecb/gym-miniworld). 
 
-## Background 
+__Why is this important?__
 
-## Approach
-
+We are looking into a future where a robot might be used to solve some challenging and difficult task without apriori knowledge about the environment. 
+Very briefly explained SLAM has three important features: pose estimation, mapping in real-time and efficiently and planning where to go next.
+For the RL we have an agent that chooses actions and the environment to interact with. 
+In this project we used a minimalist 3D RL environment with navigation based reward. 
+The idea behind the solution is the assumption that SLAM will localize more efficiently than a DQN. 
+However, one downside is the complexity of implementation for SLAM that slows it down. 
 
 
 ## Project Proposal
@@ -19,9 +27,6 @@ Project team: John Balis, Yisen Wang and Milica Cvetkovic
 ## Midterm Report 
 
 [Link to the midterm report](./assets/766_midterm_report.pdf)
-
-### Demo of ORB-SLAM3 and miniworld
-
 
 
 ## Project Timeline
@@ -35,4 +40,16 @@ Project team: John Balis, Yisen Wang and Milica Cvetkovic
 | Apr 7 - Apr 21       | Contrast performance of DQN on Miniworld           | 
 | Before May 5         | Complete project writeup and presentation          | 
 
+## Background
 
+## Approach
+
+## Results
+
+### PySLAM
+
+### ORB-SLAM2
+
+### ORB-SLAM3
+
+## Demos
