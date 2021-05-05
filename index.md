@@ -148,7 +148,14 @@ Here is a demo video that pytorch is trying the agent with SLAM results in real-
 </p>
 
 Timing issue:
+| Settings                       | Time per action | 
+|:-------------------------------|:----------------|
+| 10 frames/action​ With viewer   | 0.34s           | 
+| 10 frames/action​ Without viewer| 0.33s           | 
+| 20 frames/action               | 0.67s           |
+| 5 frames/action                | 0.17s           | 
 
+Resolution: 800x600
 
 Problems to be solved:​
 
@@ -165,5 +172,7 @@ We analyzed the time it took to perform SLAM on this sequence of images in pysla
 ## Future work
 
 1) Encode the slam results into DQN model input
+
 2) Improve the code performance to get fater performance
+
 3) Find appropriate parameters that mitigate the "lost of track" issue
