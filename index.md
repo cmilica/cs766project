@@ -32,7 +32,7 @@ However, one downside is the complexity of implementation for SLAM that slows it
 
 [Link to the midterm report](./assets/766_midterm_report.pdf)
 
-## Project code report
+## Project code repo
 
 https://github.com/balisujohn/766-final-project
 
