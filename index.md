@@ -182,6 +182,6 @@ We analyzed the time it took to perform SLAM on this sequence of images in pysla
 
 1) Encode the slam results into DQN model input
 
-2) Improve the code performance to get fater performance
+2) Improve the code performance to get faster performance
 
 3) Find appropriate parameters that mitigate the "lost of track" issue
